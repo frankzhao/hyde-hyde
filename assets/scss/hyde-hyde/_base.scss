@@ -63,7 +63,7 @@ figcaption {
   p {
     font-size: $root-font-size;
     font-style: italic;
-    line-height: $large-font-size;
+    line-height: $root-font-size + 4px;
   }
 }
 
