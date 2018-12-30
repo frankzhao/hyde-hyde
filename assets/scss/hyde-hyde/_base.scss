@@ -52,6 +52,21 @@ figure {
 	padding: 0;
 }
 
+figcaption {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 5px 15px 0 15px;
+  h4 {
+    font-weight: bold;
+    font-size: $root-font-size;
+  }
+  p {
+    font-size: $root-font-size;
+    font-style: italic;
+    line-height: $large-font-size;
+  }
+}
+
 %quotebox {
 	padding: .8889rem;
 	margin-top: 1rem;
